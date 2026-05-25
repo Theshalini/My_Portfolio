@@ -732,6 +732,7 @@ footer span{color:var(--gold)}
   .photo-wrap{width:300px;height:380px}
   .edu-grid{grid-template-columns:repeat(2,1fr)}
   .projects-grid{grid-template-columns:repeat(2,1fr)}
+  .mini-grid{grid-template-columns:repeat(2,1fr) !important}
   .cert-grid{grid-template-columns:repeat(3,1fr)}
 }
 @media(max-width:768px){
@@ -754,6 +755,7 @@ footer span{color:var(--gold)}
   .about-grid{grid-template-columns:1fr;gap:36px}
   .edu-grid{grid-template-columns:1fr}
   .projects-grid{grid-template-columns:1fr}
+   .mini-grid{grid-template-columns:1fr !important}
   .cert-grid{grid-template-columns:repeat(2,1fr)}
   .contact-grid{grid-template-columns:1fr;gap:40px}
 }
@@ -1013,7 +1015,7 @@ footer span{color:var(--gold)}
       <h2 class="sec-title">Mini Projects</h2>
       <div class="sec-line"></div>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;">
+    <div class="mini-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;">
 
       <div class="reveal" style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:26px 22px;backdrop-filter:blur(10px);transition:transform .35s,box-shadow .35s,border-color .35s;position:relative;overflow:hidden;"
         onmouseover="this.style.transform='translateY(-5px)';this.style.borderColor='rgba(20,184,166,.35)';this.style.boxShadow='0 20px 56px rgba(0,0,0,.3)'"
